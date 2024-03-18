@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-promo {
+  height: 64px;
+  background: #f3f7ff;
+  padding: 19px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26.11px;
+  color: #121214;
+}
+
+.bg-jordan img {
+  position: absolute;
+  width: 100vw;
+  height: 70%;
+}
+
+.header-titulo {
+  display: inline;
+  font-size: 24px;
+  line-height: 26.11px;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.header-texto {
+  position: absolute;
+  margin-top: 94px;
+  margin-left: 60px;
+}
+
+.logo-jordan {
+  margin-right: 13px;
+}
+
+.header-sub-titulo {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 34.82px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+.animacao {
+  color: #ffffff;
+  border-right: 4px solid;
+  white-space: nowrap;
+  width: 73ch;
+  overflow: hidden;
+  animation: typing 5s steps(64), blinking 0.5s alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blinking {
+  50% {
+    border-color: transparent;
+  }
+}
+
+main {
+  margin-top: 490px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 34.82px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  color: #121214;
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.card-1 {
+  background-color: #f3f7ff;
+  width: 384px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.tenis-card {
+  margin: 32.5px 79.5px;
+}
+
+.card-1 img {
+  transition: all 0.4s ease;
+}
+
+.card-1:hover img {
+  transform: scale(1.1);
+}
+
+.titulo-secao {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  color: #121214;
+  margin-top: 24px;
+}
+
+.sub-titulo-secao {
+  font-size: 16px;
+
+  font-weight: 500;
+  line-height: 17.41px;
+  color: #7ca2f4;
+  margin-top: 12px;
+}
+
+.preco {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.52px;
+  color: #121214;
+  margin: 24px 0 40px 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+#cards {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.secoes {
+  display: inline-block;
+  margin-right: 32px;
+}
